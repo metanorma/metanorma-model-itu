@@ -9,15 +9,6 @@ diagram ItuStandardDocument {
   class OrderedList <<BasicDocument>> {
   }
   
-  class TextElement <<BasicDocument>> {
-  }
-  
-  class Add {
-  }
-  
-  class Del {
-  }
-  
   class ItuOrderedList {
     +class: ItuOrderedListClass[0..*]
   }
